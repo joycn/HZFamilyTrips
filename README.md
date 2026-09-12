@@ -5,7 +5,7 @@
 ## 在线查看
 
 - [旅行计划首页](https://joycn.github.io/HZFamilyTrips/)
-- [郑州—兰州—固原—中卫—银川完整行程](https://joycn.github.io/HZFamilyTrips/trips/2026-09-ningxia-lanzhou/)
+- [郑州—固原—中卫—银川—兰州完整行程](https://joycn.github.io/HZFamilyTrips/trips/2026-09-ningxia-lanzhou/)
 
 ## 2026年秋行程
 
