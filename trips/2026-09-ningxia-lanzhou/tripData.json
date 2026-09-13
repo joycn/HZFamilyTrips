@@ -843,7 +843,7 @@
     }
   ],
   "dailyRoutes": {
-    "coordinateNote": "坐标为地点附近示意位置，未逐一核验入口；待订酒店和待选餐厅按区域标记。连线表示游览顺序，不是实际道路或铁路轨迹。 餐饮标记中未核坐标的点借用城市或景区区域参考位置，可能重叠，不表示实际店址或距离；请用完整店名导航。",
+    "coordinateNote": "虚线表示访问顺序，不是实际道路。景点和酒店保留各自位置说明；餐厅使用独立餐饮标记。餐厅坐标未核实时仅展示地址、日期与导航链接，不绘制该点或相邻路线段；完整顺序见文字路线。底图需联网。",
     "points": {
       "hz": {
         "name": "杭州东站",
@@ -1106,15 +1106,14 @@
       "mawei": {
         "name": "马伟·盐池滩羊手抓（光耀店）",
         "city": "银川",
-        "p": [
-          38.486,
-          106.199
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "银川 马伟·盐池滩羊手抓（光耀店）",
-        "note": "餐饮停靠点；坐标借用本城/所在区域参考点，不代表店址。地址参考：宝湖东路与永安巷交叉口光耀中心一楼。"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "宝湖东路与永安巷交叉口光耀中心一楼",
+        "locationStatus": "unverified"
       },
       "laoma": {
         "name": "老马家羊杂碎总店",
@@ -1124,49 +1123,48 @@
           106.240201
         ],
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "银川 老马家羊杂碎总店",
-        "note": "餐饮停靠点；高德公开点位经GCJ02近似转换为WGS84，入口以名称导航为准。地址参考：尹家渠北街银新清真寺门口向北第三家。"
+        "note": "高德公开店铺坐标经GCJ02近似转换为WGS84；实际入口以导航为准。",
+        "address": "尹家渠北街银新清真寺门口向北第三家",
+        "locationStatus": "verified"
       },
       "guoqiang": {
         "name": "国强手抓（利通旗舰店）",
         "city": "吴忠",
-        "p": [
-          37.994,
-          106.2
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "吴忠 国强手抓（利通旗舰店）",
-        "note": "餐饮停靠点；坐标借用本城/所在区域参考点，不代表店址。地址参考：文华街与金水路交叉口东南角，两馆一中心对面。"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "文华街与金水路交叉口东南角（两馆一中心对面）",
+        "locationStatus": "unverified"
       },
       "suzi": {
         "name": "苏子拉面馆（总店）",
         "city": "吴忠",
-        "p": [
-          37.994,
-          106.2
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "吴忠市利通区民和巷 苏子拉面馆(总店)",
-        "note": "餐饮停靠点；地址由用户确认：吴忠市利通区民和巷。坐标暂借用吴忠市区参考点，不代表实际店址；按民和巷苏子拉面馆（总店）名称导航。"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "吴忠市利通区民和巷",
+        "locationStatus": "unverified"
       },
       "yuxiang": {
         "name": "玉祥楼早茶（光耀店）",
         "city": "吴忠",
-        "p": [
-          37.994,
-          106.2
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "吴忠 玉祥楼早茶（光耀店）",
-        "note": "餐饮停靠点；坐标借用本城/所在区域参考点，不代表店址。地址参考：光耀美食街东门北侧103。"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "光耀美食街东门北侧103",
+        "locationStatus": "unverified"
       },
       "jinyezi": {
         "name": "金叶子",
@@ -1176,36 +1174,36 @@
           105.206088
         ],
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "中卫 金叶子",
-        "note": "餐饮停靠点；高德公开点位经GCJ02近似转换为WGS84，入口以名称导航为准。地址参考：中央东大道100号。"
+        "note": "高德公开店铺坐标经GCJ02近似转换为WGS84；实际入口以导航为准。",
+        "address": "中央东大道100号",
+        "locationStatus": "verified"
       },
       "yupin": {
         "name": "御品斋（生汆面）",
         "city": "固原",
-        "p": [
-          36.28,
-          106.008
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "固原 御品斋（生汆面）",
-        "note": "餐饮停靠点；坐标借用本城/所在区域参考点，不代表店址。地址参考：原州区三营镇北街须弥山路口。标记借用须弥山区域，餐厅实际在三营镇；餐品及营业待确认"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "原州区三营镇北街须弥山路口",
+        "locationStatus": "unverified"
       },
       "baijia": {
         "name": "拜家羊羔肉馆",
         "city": "固原",
-        "p": [
-          36.005,
-          106.273
-        ],
+        "p": null,
         "approx": true,
-        "kind": "sight",
+        "kind": "restaurant",
         "category": "餐饮",
         "navigationQuery": "固原 拜家羊羔肉馆",
-        "note": "餐饮停靠点；坐标借用本城/所在区域参考点，不代表店址。地址参考：西关南街阳光幼儿园东南侧约30米。"
+        "note": "尚未核实地图坐标，未在地图上标点；请按完整店名和地址导航。",
+        "address": "西关南街阳光幼儿园东南侧约30米",
+        "locationStatus": "unverified"
       },
       "lzreturn": {
         "name": "兰州东方红广场自助还车点（入口待核）",
@@ -1511,7 +1509,8 @@
         ],
         "date": "09-26 / 10-05",
         "stay": "详见每日夜宿",
-        "spots": []
+        "spots": [],
+        "restaurants": []
       },
       {
         "name": "郑州",
@@ -1523,7 +1522,8 @@
         "stay": "09-26住宿",
         "spots": [
           "河南博物院"
-        ]
+        ],
+        "restaurants": []
       },
       {
         "name": "银川",
@@ -1538,7 +1538,9 @@
           "贺兰山岩画",
           "宁夏博物馆",
           "览山公园（日落可选）",
-          "黄沙古渡（景区区域示意）",
+          "黄沙古渡（景区区域示意）"
+        ],
+        "restaurants": [
           "马伟·盐池滩羊手抓（光耀店）",
           "老马家羊杂碎总店"
         ]
@@ -1551,7 +1553,8 @@
         ],
         "date": "09-30 / 10-01",
         "stay": "09-30住宿",
-        "spots": [
+        "spots": [],
+        "restaurants": [
           "国强手抓（利通旗舰店）",
           "苏子拉面馆（总店）",
           "玉祥楼早茶（光耀店）"
@@ -1568,7 +1571,9 @@
         "spots": [
           "中卫高庙",
           "66号公路（沿线示意）",
-          "北长滩古村（区域示意）",
+          "北长滩古村（区域示意）"
+        ],
+        "restaurants": [
           "金叶子"
         ]
       },
@@ -1582,7 +1587,9 @@
         "stay": "10-02住宿",
         "spots": [
           "固原博物馆",
-          "须弥山石窟",
+          "须弥山石窟"
+        ],
+        "restaurants": [
           "御品斋（生汆面）",
           "拜家羊羔肉馆"
         ]
@@ -1599,7 +1606,8 @@
           "甘肃省博物馆",
           "兰州中山桥",
           "大众巷"
-        ]
+        ],
+        "restaurants": []
       }
     ],
     "legs": [
@@ -1659,5 +1667,6 @@
     "orderAmount": null,
     "servicePackageAmount": 300,
     "paymentStatus": "总价及支付情况未展示"
-  }
+  },
+  "renderer": "web-renderer/scripts/generate.py"
 }
