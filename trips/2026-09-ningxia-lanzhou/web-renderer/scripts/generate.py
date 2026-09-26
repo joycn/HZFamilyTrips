@@ -28,7 +28,7 @@ def normalize(raw):
             assert pid in points, 'unknown point '+pid
             p=points[pid]
             coords=p.get('p')
-            assert coords is not None or p.get('kind')=='restaurant', 'only restaurants may omit coordinates'
+            assert coords is not None or p.get('kind') in ('restaurant','hotel'), 'only restaurants and hotels may omit coordinates'
             lat,lon=coords if coords is not None else (0,0)
             assert all(isinstance(x,(int,float)) and math.isfinite(x) for x in [lat,lon]), 'invalid coordinate'
             assert -90<=lat<=90 and -180<=lon<=180, 'coordinate outside globe'
